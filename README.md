@@ -1,6 +1,6 @@
 Current extensions:
 
-Bazel
-Clangd
-CodeLLDB
-Git Graph
+* Bazel
+* Clangd
+* CodeLLDB
+* Git Graph
