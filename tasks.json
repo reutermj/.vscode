@@ -1,0 +1,11 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Bazel Build Cortecs",
+            "type": "shell",
+            "command": "./bazelisk build -c dbg //cortecs:cortecs",
+            "group": "build"
+        }
+    ]
+}
