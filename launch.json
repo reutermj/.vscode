@@ -1,0 +1,17 @@
+  {
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/bazel-bin/cortecs/cortecs",
+            "args": [],
+            "cwd": "${fileDirname}",
+            "preLaunchTask": "Bazel Build Cortecs",
+            "sourceMap": {
+                "/proc/self/cwd": "${workspaceFolder}",
+            }
+        }
+    ]
+}
