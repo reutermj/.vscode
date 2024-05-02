@@ -11,7 +11,10 @@
             "preLaunchTask": "Bazel Build Cortecs",
             "sourceMap": {
                 "/proc/self/cwd": "${workspaceFolder}",
-            }
+            },
+            "_windowsAndOsxSourceMap": {
+                ".": "${workspaceFolder}",
+            },
         }
     ]
 }
