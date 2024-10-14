@@ -1,19 +1,16 @@
-  {
+{
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Launch",
+            "name": "GC Tests",
             "type": "lldb",
             "request": "launch",
-            "program": "${workspaceFolder}/bazel-bin/cortecs/cortecs",
+            "program": "${workspaceFolder}/bazel-bin/test/cortecs/gc/gc",
             "args": [],
             "cwd": "${fileDirname}",
-            "preLaunchTask": "Bazel Build Cortecs",
+            "preLaunchTask": "Bazel Build GC Tests",
             "sourceMap": {
                 "/proc/self/cwd": "${workspaceFolder}",
-            },
-            "_windowsAndOsxSourceMap": {
-                ".": "${workspaceFolder}",
             },
         }
     ]
