@@ -1,0 +1,10 @@
+// this has to be copied to the global keybindings.json
+// File -> Preferences -> Keyboard Shortcuts -> Open Keyboard Shortcuts (JSON)
+// It's in the top right and looks like a file with an arrow
+[
+    {
+        "key": "ctrl+d",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus"
+    }
+]
