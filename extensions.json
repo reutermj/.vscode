@@ -1,0 +1,13 @@
+{
+    "recommendations": [
+        "ms-python.python",
+        "bazelbuild.vscode-bazel",
+        "llvm-vs-code-extensions.vscode-clangd",
+        "mhutchie.git-graph",
+        "vadimcn.vscode-lldb",
+        "github.vscode-github-actions",
+        "github.copilot",
+        "github.remotehub",
+        "github.vscode-pull-request-github"
+    ]
+}
