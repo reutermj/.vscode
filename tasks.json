@@ -2,9 +2,9 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Bazel Build Cortecs",
+            "label": "Bazel Build GC Tests",
             "type": "shell",
-            "command": "./bazelisk build -c dbg //cortecs:cortecs",
+            "command": "bazel build -c dbg //test/cortecs/gc",
             "group": "build"
         }
     ]
