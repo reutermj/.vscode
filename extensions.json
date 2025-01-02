@@ -9,6 +9,7 @@
         "github.copilot",
         "github.remotehub",
         "github.vscode-pull-request-github",
-        "zhaouv.vscode-markdown-everywhere"
+        "zhaouv.vscode-markdown-everywhere",
+        "ms-vscode-remote.remote-containers"
     ]
 }
