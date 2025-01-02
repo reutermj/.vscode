@@ -1,4 +1,7 @@
 {
     "editor.formatOnSave": true,
-    "editor.minimap.enabled": false
+    "editor.minimap.enabled": false,
+    "bazel.buildifierFixOnFormat": true,
+    "bazel.enableCodeLens": true,
+    "bazel.executable": "bazelw"
 }
