@@ -3,5 +3,6 @@
     "editor.minimap.enabled": false,
     "bazel.buildifierFixOnFormat": true,
     "bazel.enableCodeLens": true,
-    "bazel.executable": "bazelw"
+    "bazel.executable": "/home/mark/data/CodeProjects/cortecs/bazelw",
+    "clangd.path": "/home/mark/data/CodeProjects/cortecs/external/+_repo_rules2+clang-linux-x86_64/bin/clangd"
 }
